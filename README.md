@@ -1,5 +1,5 @@
 # Music-Player
-This project was a mini project while learning javascript. It comprises of HTML,CSS and JavaScript Only.
+This project is a mini project using javascript. It comprises of HTML,CSS and JavaScript Only.
 
 Functionalities : 
 Songs could be played and paused.
