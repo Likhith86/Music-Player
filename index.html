@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LR Player</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="images/logo.jfif" alt=""></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+    <div class="songList">
+        <h1 class="heading">Songs of the Day</h1>
+        <div class="songItem">
+            <img src="images/loading.jpg" alt="">
+            <span class="songName">Loading ...</span>
+             <span ><i id="1" class="fa-solid fa-circle-play"></i></span>
+        </div>
+        <div class="songItem">
+            <img src="images/loading.jpg" alt="">
+            <span class="songName">Loading ...</span>
+             <span ><i id="2" class="fa-solid fa-circle-play"></i></span>
+            </div>
+        <div class="songItem">
+            <img src="images/loading.jpg" alt="">
+            <span class="songName">Loading ...</span>
+             <span ><i id="3" class="fa-solid fa-circle-play"></i></span>
+            </div>
+        <div class="songItem">
+            <img src="images/loading.jpg" alt="">
+            <span class="songName">Loading ...</span>
+             <span ><i id="4" class="fa-solid fa-circle-play"></i></span>
+            </div>
+        <div class="songItem">
+            <img src="images/loading.jpg" alt="">
+            <span class="songName">Loading ...</span>
+             <span ><i id="5" class="fa-solid fa-circle-play"></i></span>
+            </div>
+        <div class="songItem">
+            <img src="images/loading.jpg" alt="">
+            <span class="songName">Loading ...</span>
+            <span ><i id="6" class="fa-solid fa-circle-play"></i></span>
+        </div>        <div class="songItem">
+            <img src="images/loading.jpg" alt="">
+            <span class="songName">Loading ...</span>
+             <span ><i id="7" class="fa-solid fa-circle-play"></i></span>
+            </div>
+    </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" id="progressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-circle-play" id="mainPlay"></i>
+            <i class="fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="mainSong"><img src="images/playing.gif" id="gif" alt=""><span id="mainSongName">Thoda Thoda Pyaar</span></div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/b4d5900264.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>

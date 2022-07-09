@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(167, 176, 176);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 65px;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: rgb(27, 20, 27);
+    /* justify-content: center; */
+}
+
+.logo img{
+    height: 55px;
+    border-radius: 30px;
+}
+
+.container{
+    min-height: 73vh;
+    background-color: rgb(220, 220, 220);
+    width: 70%;
+    margin: 7px auto;
+    background-image: url('images/bgimg.jpg');
+    background-repeat: none;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    background-color: black;
+    height: 123px;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+#progressBar{
+    width: 80%;
+    margin: 15px 0px 10px 0px;
+    cursor: pointer;
+}
+
+.icons{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.mainSong{
+    display: flex;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.mainSong img{
+    height: 25px;
+    opacity: 0;
+    transition: opacity ease-in-out 0.5s;
+}
+
+#mainSongName{
+    margin: 0px 0px 0px 80px;
+}
+
+.heading{
+    color: white;
+    margin: 2px 0px 8px 15px;
+}
+
+.songItem{
+    display: flex;
+    width: 60%;
+    margin: 5px 10px;
+    background-color: azure;
+    opacity: .8;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+.songItem img{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.songList{
+    display: flex;
+    flex-direction: column;
+}
+
+.songItem .fa-solid{
+    margin-right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.songName{
+    font-weight: bold;
+}
